@@ -1,14 +1,14 @@
 #include <cstdint>
 #include <string>
 namespace Offsets {
-    inline std::string ClientVersion = "version-9affbe66b2624d20";
+    inline std::string ClientVersion = "version-ed2b47b81f08484a";
 
     namespace PlayerConfigurer {
         inline constexpr uintptr_t Pointer = 0x0;
     }
 
     namespace TaskScheduler {
-        inline constexpr uintptr_t Pointer = 0x815d398;
+        inline constexpr uintptr_t Pointer = 0x836aae8;
         inline constexpr uintptr_t JobStart = 0xc8;
         inline constexpr uintptr_t JobEnd = 0xd0;
         inline constexpr uintptr_t JobName = 0x18;
@@ -16,7 +16,7 @@ namespace Offsets {
     }
 
     namespace VisualEngine {
-        inline constexpr uintptr_t Pointer = 0x82f16a8;
+        inline constexpr uintptr_t Pointer = 0x84f8808;
         inline constexpr uintptr_t Dimensions = 0xab0;
         inline constexpr uintptr_t ViewMatrix = 0x150;
         inline constexpr uintptr_t RenderView = 0xbb8;
@@ -24,12 +24,12 @@ namespace Offsets {
     }
 
     namespace FakeDataModel {
-        inline constexpr uintptr_t Pointer = 0x85c6908;
+        inline constexpr uintptr_t Pointer = 0x7dccd88;
         inline constexpr uintptr_t RealDataModel = 0x1d0;
     }
 
     namespace MouseService {
-        inline constexpr uintptr_t SensitivityPointer = 0x0;
+        inline constexpr uintptr_t SensitivityPointer = 0x7f90688;
         inline constexpr uintptr_t InputObject = 0xf0;
         inline constexpr uintptr_t InputObject2 = 0x100;
         inline constexpr uintptr_t MousePosition = 0xd4;
@@ -115,8 +115,8 @@ namespace Offsets {
     }
 
     namespace RunService {
-        inline constexpr uintptr_t HeartbeatTask = 0x1a0;
-        inline constexpr uintptr_t HeartbeatFPS = 0xd2;
+        inline constexpr uintptr_t HeartbeatTask = 0x24b8;
+        inline constexpr uintptr_t HeartbeatFPS = 0xf4;
     }
 
     namespace RenderJob {
@@ -191,7 +191,7 @@ namespace Offsets {
     }
 
     namespace SpawnLocation {
-        inline constexpr uintptr_t AllowTeamChangeOnTouch = 0x3d;
+        inline constexpr uintptr_t AllowTeamChangeOnTouch = 0x188;
         inline constexpr uintptr_t Enabled = 0x189;
         inline constexpr uintptr_t Neutral = 0x18a;
         inline constexpr uintptr_t ForcefieldDuration = 0x180;
@@ -246,7 +246,7 @@ namespace Offsets {
 
     namespace Player {
         inline constexpr uintptr_t LocalPlayer = 0x130;
-        inline constexpr uintptr_t UserId = 0x300;
+        inline constexpr uintptr_t UserId = 0xd0;
         inline constexpr uintptr_t DisplayName = 0x138;
         inline constexpr uintptr_t HealthDisplayDistance = 0x390;
         inline constexpr uintptr_t NameDisplayDistance = 0x3a0;
@@ -326,10 +326,10 @@ namespace Offsets {
         inline constexpr uintptr_t Tooltip = 0x468;
         inline constexpr uintptr_t TextureId = 0x360;
         inline constexpr uintptr_t Grip = 0x4ac;
-        inline constexpr uintptr_t Enabled = 0x395;
+        inline constexpr uintptr_t Enabled = 0x4b9;
         inline constexpr uintptr_t CanBeDropped = 0x4b8;
         inline constexpr uintptr_t ManualActivationOnly = 0x4ba;
-        inline constexpr uintptr_t RequiresHandle = 0x245;
+        inline constexpr uintptr_t RequiresHandle = 0x4bb;
     }
 
     namespace Clothing {
